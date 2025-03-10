@@ -1,0 +1,45 @@
+[
+  {
+    "id": "chat1",
+    "title": "General Chat",
+    "members": [
+      "user1",
+      "user2"
+    ],
+    "typing_members": [],
+    "lastOpened": [
+      {
+        "userId": "user1",
+        "date": "2025-03-10T00:52:58.050Z"
+      },
+      {
+        "userId": "user2",
+        "date": "2025-03-09T20:22:41.847Z"
+      }
+    ],
+    "type": "public"
+  },
+  {
+    "id": "chat2",
+    "title": "Private Chat",
+    "members": [
+      "user1",
+      "user3"
+    ],
+    "typing_members": [],
+    "lastOpened": [
+      {
+        "userId": "user1",
+        "date": "2025-03-10T01:50:05.665Z"
+      },
+      {
+        "userId": "user3",
+        "date": "2025-03-10T01:15:37.196Z"
+      },
+      {
+        "date": "2025-03-10T01:12:35.607Z"
+      }
+    ],
+    "type": "personal"
+  }
+]

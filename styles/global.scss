@@ -1,0 +1,30 @@
+@use "./colors.scss" as c;
+
+@import "tailwindcss";
+
+@import "fonts.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.02em;
+}
+
+body {
+  background-color: black;
+}
+
+@layer base {
+  :root {
+    --color-white: #f2f6f6;
+    --color-success: #43ad28;
+    --color-muted: #fafafa66;
+    --color-warning: #eb6402;
+    --color-danger: #eb0237;
+    --color-danger-muted: #a01131;
+    --color-danger-disabled: #701328;
+    --color-custom-gray: #101318;
+    --radius: 0.5rem;
+  }
+}
