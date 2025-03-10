@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 export type SidebarItemProps = {
   href: string;
@@ -8,7 +7,6 @@ export type SidebarItemProps = {
 } & React.HTMLAttributes<HTMLDivElement>;
 
 const SidebarItem: React.FC<SidebarItemProps> = ({
-  href,
   icon,
   extraClasses = "",
   ...props
@@ -20,7 +18,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
         props.className || ""
       }`}
     >
-      <Link href={href}>{icon}</Link>
+      {icon}
     </div>
   );
 };

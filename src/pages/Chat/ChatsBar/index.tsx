@@ -6,7 +6,7 @@ import SearchInput from "@/components/SearchInput";
 
 type ChatsBarProps = {
   className?: string;
-  setIsChatOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setIsChatOpen?: React.Dispatch<React.SetStateAction<boolean>>;
 } & React.HTMLAttributes<HTMLDivElement>;
 
 const ChatsBar: React.FC<ChatsBarProps> = ({ setIsChatOpen }) => {
@@ -26,7 +26,7 @@ const ChatsBar: React.FC<ChatsBarProps> = ({ setIsChatOpen }) => {
             lastMessage={item.lastMessage}
             unreadCount={item.unreadCount}
             handleClick={() => {
-              setIsChatOpen(false);
+              if (setIsChatOpen) setIsChatOpen(false);
             }}
           />
         ))}
