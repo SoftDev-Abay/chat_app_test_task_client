@@ -17,11 +17,14 @@ function readChatRooms(): ChatroomType[] {
 
 export async function GET(
   request: Request,
-  { params }: { params: { chatroomId: string } }
+  { params }: { params: Promise<{ chatroomId: string }> }
 ) {
+
+  const chatroomId = (await params).chatroomId;
+
   const chatrooms = readChatRooms();
 
-  const chatroom = chatrooms.find((c) => c.id === params.chatroomId);
+  const chatroom = chatrooms.find((c) => c.id === chatroomId);
   if (!chatroom) {
     return NextResponse.json({ error: "Chatroom not found" }, { status: 404 });
   }

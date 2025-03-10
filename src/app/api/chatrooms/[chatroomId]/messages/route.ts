@@ -33,15 +33,15 @@ function writeMessages(messages: IntristicMessageType[]) {
 
 export async function GET(
   request: Request,
-  { params }: { params: { chatroomId: string } }
+  { params }: { params: Promise<{ chatroomId: string }> }
 ) {
+  const chatroomId = (await params).chatroomId;
+
   const { searchParams } = new URL(request.url);
   const limit = parseInt(searchParams.get("limit") || "25");
   const before = searchParams.get("before");
 
-  let chatMessages = readMessages().filter(
-    (m) => m.chatroom_id === params.chatroomId
-  );
+  let chatMessages = readMessages().filter((m) => m.chatroom_id === chatroomId);
 
   if (before) {
     const beforeTime = new Date(before).getTime();
@@ -59,7 +59,7 @@ export async function GET(
   paginated.reverse();
 
   const chatrooms = readChatrooms();
-  const chatroom = chatrooms.find((c) => c.id === params.chatroomId);
+  const chatroom = chatrooms.find((c) => c.id === chatroomId);
 
   if (chatroom) {
     const messagesWithReadStatus = paginated.map((msg) => {
@@ -87,14 +87,16 @@ export async function GET(
 
 export async function POST(
   request: Request,
-  { params }: { params: { chatroomId: string } }
+  { params }: { params: Promise<{ chatroomId: string }> }
 ) {
   const { sender, text } = await request.json();
   const messages = readMessages();
+  const chatroomId = (await params).chatroomId;
+
 
   const newMessage: IntristicMessageType = {
     id: String(Date.now()),
-    chatroom_id: params.chatroomId,
+    chatroom_id: chatroomId,
     text,
     sender,
     createdAt: new Date().toISOString(),

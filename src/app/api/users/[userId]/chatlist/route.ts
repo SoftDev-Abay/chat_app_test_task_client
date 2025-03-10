@@ -26,13 +26,15 @@ function readJSON<T>(filePath: string): T {
 
 export async function GET(
   request: Request,
-  { params }: { params: { userId: string } }
+  { params }: { params: Promise<{ userId: string }> }
 ) {
+  const userId = (await params).userId;
+
   const users = readJSON<UserType[]>(usersFilePath);
   const chatrooms = readJSON<ChatroomType[]>(chatroomsFilePath);
   const messages = readJSON<MessageType[]>(messagesFilePath);
 
-  const user = users.find((u) => u.id === params.userId);
+  const user = users.find((u) => u.id === userId);
   if (!user) {
     return NextResponse.json({ error: "User not found" }, { status: 404 });
   }

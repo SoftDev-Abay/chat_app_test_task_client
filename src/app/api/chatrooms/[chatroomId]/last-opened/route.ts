@@ -1,3 +1,4 @@
+// src/app/api/chatrooms/[chatroomId]/last-opened/route.ts
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
@@ -21,9 +22,9 @@ function writeChatrooms(chatrooms: ChatroomType[]) {
 
 export async function PUT(
   request: Request,
-  { params }: { params: { chatroomId: string } }
+  { params }: { params: Promise<{ chatroomId: string }> }
 ): Promise<Response> {
-  const { chatroomId } = params;
+  const chatroomId = (await params).chatroomId;
   const { userId } = await request.json();
 
   const chatrooms = readChatrooms();
