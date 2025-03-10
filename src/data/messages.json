@@ -4,826 +4,244 @@
     "chatroom_id": "chat1",
     "text": "Hello everyone!",
     "sender": "user1",
-    "readBy": [
-      "user1",
-      "user2"
-    ],
-    "createdAt": "2023-03-10T12:00:00Z"
+    "createdAt": "2025-03-10T12:00:00Z"
   },
   {
     "id": "msg2",
     "chatroom_id": "chat1",
-    "text": "Hi, Alice!",
+    "text": "Hey! How's it going?",
     "sender": "user2",
-    "readBy": [
-      "user2"
-    ],
-    "createdAt": "2023-03-10T12:01:00Z"
+    "createdAt": "2025-03-10T12:01:00Z"
   },
   {
     "id": "msg3",
-    "chatroom_id": "chat2",
-    "text": "Hey Charlie, how are you?",
+    "chatroom_id": "chat1",
+    "text": "Pretty good! I just tried making pancakes, and let's just say the smoke alarm wasn't impressed 😂",
     "sender": "user1",
-    "readBy": [
-      "user1"
-    ],
-    "createdAt": "2023-03-10T12:05:00Z"
+    "createdAt": "2025-03-10T12:02:00Z"
   },
   {
     "id": "msg4",
-    "chatroom_id": "chat2",
-    "text": "I'm good, thanks!",
-    "sender": "user3",
-    "readBy": [
-      "user1",
-      "user3"
-    ],
-    "createdAt": "2023-03-10T12:06:00Z"
-  },
-  {
-    "id": "1741494127948",
-    "chatroom_id": "chat2",
-    "text": "Hiiiiiii, whats you dooooing ???",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:22:08.069Z"
-  },
-  {
-    "id": "1741494246775",
-    "chatroom_id": "chat2",
-    "text": "I am greeeeaaat, thanks !",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:24:06.872Z"
-  },
-  {
-    "id": "1741494305307",
-    "chatroom_id": "chat2",
-    "text": "Anyway, what are you doing monday ?",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:25:05.401Z"
-  },
-  {
-    "id": "1741494693463",
-    "chatroom_id": "chat2",
-    "text": "I was thinking of walking in a park, its getting warmer BY THE SECOND !!",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:31:33.580Z"
-  },
-  {
-    "id": "1741494851399",
-    "chatroom_id": "chat2",
-    "text": "sounds AWESOME !!!!",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:34:11.499Z"
-  },
-  {
-    "id": "1741495017789",
-    "chatroom_id": "chat2",
-    "text": "righghghghghgt ???!!!",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:36:57.889Z"
-  },
-  {
-    "id": "1741495717564",
-    "chatroom_id": "chat2",
-    "text": "I am the god ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:48:37.661Z"
-  },
-  {
-    "id": "1741495746057",
-    "chatroom_id": "chat2",
-    "text": "no I am ",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:49:06.144Z"
-  },
-  {
-    "id": "1741495757689",
-    "chatroom_id": "chat2",
-    "text": "NO YOU ARE NOT",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:49:17.786Z"
-  },
-  {
-    "id": "1741495766691",
-    "chatroom_id": "chat2",
-    "text": "Yes I am ",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T04:49:26.793Z"
-  },
-  {
-    "id": "1741497982136",
-    "chatroom_id": "chat2",
-    "text": "Prove it ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:26:22.233Z"
-  },
-  {
-    "id": "1741498019440",
-    "chatroom_id": "chat2",
-    "text": "Do you have anything to back it up ? ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:26:59.599Z"
-  },
-  {
-    "id": "1741498093543",
-    "chatroom_id": "chat2",
-    "text": "Hell I do",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:28:13.632Z"
-  },
-  {
-    "id": "1741498110264",
-    "chatroom_id": "chat2",
-    "text": "How about the fact that you are a mortal",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:28:30.358Z"
-  },
-  {
-    "id": "1741498283337",
-    "chatroom_id": "chat2",
-    "text": "Sans",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:31:23.419Z"
-  },
-  {
-    "id": "1741498325807",
-    "chatroom_id": "chat2",
-    "text": "Kinda",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:32:05.948Z"
-  },
-  {
-    "id": "1741498364041",
-    "chatroom_id": "chat2",
-    "text": "may",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:32:44.185Z"
-  },
-  {
-    "id": "1741498548120",
-    "chatroom_id": "chat2",
-    "text": "hm",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:35:48.188Z"
-  },
-  {
-    "id": "1741498556772",
-    "chatroom_id": "chat2",
-    "text": "still",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:35:56.858Z"
-  },
-  {
-    "id": "1741498561100",
-    "chatroom_id": "chat2",
-    "text": "the same",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:36:01.204Z"
-  },
-  {
-    "id": "1741498565343",
-    "chatroom_id": "chat2",
-    "text": "thing",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:36:05.430Z"
-  },
-  {
-    "id": "1741498630236",
-    "chatroom_id": "chat2",
-    "text": "sdaddsa",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:37:10.324Z"
-  },
-  {
-    "id": "1741498636195",
-    "chatroom_id": "chat2",
-    "text": "dadasd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:37:16.281Z"
-  },
-  {
-    "id": "1741498665747",
-    "chatroom_id": "chat2",
-    "text": "what ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:37:45.894Z"
-  },
-  {
-    "id": "1741498701781",
-    "chatroom_id": "chat2",
-    "text": "what the hell",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:38:21.880Z"
-  },
-  {
-    "id": "1741498711377",
-    "chatroom_id": "chat2",
-    "text": "is going on",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:38:31.460Z"
-  },
-  {
-    "id": "1741498791228",
-    "chatroom_id": "chat2",
-    "text": "what the heel",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:39:51.297Z"
-  },
-  {
-    "id": "1741499137662",
-    "chatroom_id": "chat2",
-    "text": "right ? ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:45:37.736Z"
-  },
-  {
-    "id": "1741499143054",
-    "chatroom_id": "chat2",
-    "text": "its nuts ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:45:43.155Z"
-  },
-  {
-    "id": "1741499205915",
-    "chatroom_id": "chat2",
-    "text": "been a wile",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:46:46.015Z"
-  },
-  {
-    "id": "1741499216309",
-    "chatroom_id": "chat2",
-    "text": "weird",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:46:56.402Z"
-  },
-  {
-    "id": "1741499224232",
-    "chatroom_id": "chat2",
-    "text": "agree",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:47:04.305Z"
-  },
-  {
-    "id": "1741499408604",
-    "chatroom_id": "chat2",
-    "text": "I am a genious",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:50:08.687Z"
-  },
-  {
-    "id": "1741499421799",
-    "chatroom_id": "chat2",
-    "text": "thats just nuts",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T05:50:21.880Z"
-  },
-  {
-    "id": "1741502730755",
-    "chatroom_id": "chat2",
-    "text": "ITS my turn now !",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T06:45:30.829Z"
-  },
-  {
-    "id": "1741503250000",
-    "chatroom_id": "chat2",
-    "text": "no its mine",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T06:54:10.092Z"
-  },
-  {
-    "id": "1741504992350",
-    "chatroom_id": "chat2",
-    "text": "here ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:23:12.391Z"
-  },
-  {
-    "id": "1741505000214",
-    "chatroom_id": "chat2",
-    "text": "we go",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:23:20.250Z"
-  },
-  {
-    "id": "1741505021535",
-    "chatroom_id": "chat2",
-    "text": "a",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:23:41.573Z"
-  },
-  {
-    "id": "1741505070394",
-    "chatroom_id": "chat2",
-    "text": "asdasd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:24:30.450Z"
-  },
-  {
-    "id": "1741505105148",
-    "chatroom_id": "chat2",
-    "text": "asd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:25:05.205Z"
-  },
-  {
-    "id": "1741505124352",
-    "chatroom_id": "chat2",
-    "text": "as",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:25:24.396Z"
-  },
-  {
-    "id": "1741505184988",
-    "chatroom_id": "chat2",
-    "text": "asd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:26:25.048Z"
-  },
-  {
-    "id": "1741505191047",
-    "chatroom_id": "chat2",
-    "text": "adasdsa",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:26:31.090Z"
-  },
-  {
-    "id": "1741505757035",
-    "chatroom_id": "chat2",
-    "text": "woder",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:35:57.074Z"
-  },
-  {
-    "id": "1741505789337",
-    "chatroom_id": "chat2",
-    "text": "asdasd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:36:29.398Z"
-  },
-  {
-    "id": "1741505871371",
-    "chatroom_id": "chat2",
-    "text": "fuck it ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:37:51.410Z"
-  },
-  {
-    "id": "1741505878589",
-    "chatroom_id": "chat2",
-    "text": "asdasdd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:37:58.627Z"
-  },
-  {
-    "id": "1741505917222",
     "chatroom_id": "chat1",
-    "text": "sadasd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:38:37.263Z"
+    "text": "Haha! At least you tried! Did they taste as good as they looked? 🤔",
+    "sender": "user2",
+    "createdAt": "2025-03-10T12:03:00Z"
   },
   {
-    "id": "1741506006727",
+    "id": "msg5",
     "chatroom_id": "chat1",
-    "text": "asdasdasdasdsd",
+    "text": "If you like crunchy... really crunchy. 😂",
     "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:40:06.777Z"
+    "createdAt": "2025-03-10T12:04:00Z"
   },
   {
-    "id": "1741506035003",
+    "id": "msg6",
     "chatroom_id": "chat1",
-    "text": "what",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:40:35.060Z"
+    "text": "You’ve invented pancake chips! Patent that idea! 😂",
+    "sender": "user2",
+    "createdAt": "2025-03-10T12:05:00Z"
   },
   {
-    "id": "1741506054205",
+    "id": "msg7",
     "chatroom_id": "chat1",
-    "text": "dasdad",
+    "text": "Haha, yes! ‘Crisp-cakes’, the future of breakfast!",
     "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:40:54.244Z"
+    "createdAt": "2025-03-10T12:06:00Z"
   },
   {
-    "id": "1741506062028",
+    "id": "msg8",
     "chatroom_id": "chat1",
-    "text": "asdasdasd",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:41:02.095Z"
+    "text": "Would you like them in BBQ or Sour Cream & Onion flavor? 😂",
+    "sender": "user2",
+    "createdAt": "2025-03-10T12:07:00Z"
   },
   {
-    "id": "1741506070678",
+    "id": "msg9",
     "chatroom_id": "chat1",
-    "text": "asdasda",
+    "text": "Ew, no! Keep my pancakes sweet, thank you!",
     "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:41:10.734Z"
+    "createdAt": "2025-03-10T12:08:00Z"
   },
   {
-    "id": "1741506228280",
+    "id": "msg10",
     "chatroom_id": "chat1",
-    "text": "fuck it all",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T07:43:48.335Z"
+    "text": "Fine, fine. How about chocolate drizzle flavor then?",
+    "sender": "user2",
+    "createdAt": "2025-03-10T12:09:00Z"
   },
   {
-    "id": "1741520124076",
-    "chatroom_id": "chat2",
-    "text": "happy ? ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T11:35:24.149Z"
-  },
-  {
-    "id": "1741521047893",
-    "chatroom_id": "chat2",
-    "text": "of cource not",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T11:50:48.016Z"
-  },
-  {
-    "id": "1741523038673",
-    "chatroom_id": "chat2",
-    "text": "hm",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T12:23:58.766Z"
-  },
-  {
-    "id": "1741523064292",
-    "chatroom_id": "chat2",
-    "text": "you hanging in there ? ",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T12:24:24.374Z"
-  },
-  {
-    "id": "1741527883699",
-    "chatroom_id": "chat2",
-    "text": "ТЫ лох",
-    "sender": "user3",
-    "readBy": [],
-    "createdAt": "2025-03-09T13:44:43.753Z"
-  },
-  {
-    "id": "1741527891716",
-    "chatroom_id": "chat2",
-    "text": "нет ты лоъ",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T13:44:51.770Z"
-  },
-  {
-    "id": "1741527985315",
-    "chatroom_id": "chat2",
-    "text": "ал",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T13:46:25.405Z"
-  },
-  {
-    "id": "1741528052029",
-    "chatroom_id": "chat2",
-    "text": "лас",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T13:47:32.122Z"
-  },
-  {
-    "id": "1741528305705",
-    "chatroom_id": "chat2",
-    "text": "Абай балбес",
-    "sender": "user1",
-    "readBy": [],
-    "createdAt": "2025-03-09T13:51:45.787Z"
-  },
-  {
-    "id": "1741550558287",
-    "chatroom_id": "chat2",
-    "text": "how dare you ",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:02:38.345Z"
-  },
-  {
-    "id": "1741550631331",
-    "chatroom_id": "chat2",
-    "text": "I dare and i care",
-    "sender": "user3",
-    "createdAt": "2025-03-09T20:03:51.372Z"
-  },
-  {
-    "id": "1741550678142",
-    "chatroom_id": "chat2",
-    "text": "hm",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:04:38.193Z"
-  },
-  {
-    "id": "1741551136828",
-    "chatroom_id": "chat2",
-    "text": "you are unbelivable ",
-    "sender": "user3",
-    "createdAt": "2025-03-09T20:12:16.911Z"
-  },
-  {
-    "id": "1741551166141",
-    "chatroom_id": "chat2",
-    "text": "I cant stand you ",
-    "sender": "user3",
-    "createdAt": "2025-03-09T20:12:46.206Z"
-  },
-  {
-    "id": "1741551179488",
-    "chatroom_id": "chat2",
-    "text": "I mean how ",
-    "sender": "user3",
-    "createdAt": "2025-03-09T20:12:59.562Z"
-  },
-  {
-    "id": "1741551245647",
-    "chatroom_id": "chat2",
-    "text": "what the heeeeeel",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:14:05.702Z"
-  },
-  {
-    "id": "1741551271798",
-    "chatroom_id": "chat2",
-    "text": "fuck ",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:14:31.872Z"
-  },
-  {
-    "id": "1741551271889",
-    "chatroom_id": "chat2",
-    "text": "fuck ",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:14:31.974Z"
-  },
-  {
-    "id": "1741551271975",
-    "chatroom_id": "chat2",
-    "text": "fuck ",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:14:32.051Z"
-  },
-  {
-    "id": "1741551299746",
-    "chatroom_id": "chat2",
-    "text": "what the hell",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:14:59.895Z"
-  },
-  {
-    "id": "1741551528244",
-    "chatroom_id": "chat2",
-    "text": "so supposedly its supposed to work",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:18:48.299Z"
-  },
-  {
-    "id": "1741551589233",
-    "chatroom_id": "chat2",
-    "text": "asdads",
-    "sender": "user1",
-    "createdAt": "2025-03-09T20:19:49.288Z"
-  },
-  {
-    "id": "1741558813025",
-    "chatroom_id": "chat2",
-    "text": "right ?",
-    "sender": "user1",
-    "createdAt": "2025-03-09T22:20:13.093Z"
-  },
-  {
-    "id": "1741558848734",
-    "chatroom_id": "chat2",
-    "text": "dasdasd",
-    "sender": "user1",
-    "createdAt": "2025-03-09T22:20:48.782Z"
-  },
-  {
-    "id": "1741559010458",
-    "chatroom_id": "chat2",
-    "text": "no ?",
-    "sender": "user1",
-    "createdAt": "2025-03-09T22:23:30.532Z"
-  },
-  {
-    "id": "1741559074413",
-    "chatroom_id": "chat2",
-    "text": "hm",
-    "sender": "user3",
-    "createdAt": "2025-03-09T22:24:34.494Z"
-  },
-  {
-    "id": "1741559118580",
+    "id": "msg11",
     "chatroom_id": "chat1",
-    "text": "been there done that",
+    "text": "Now you’re speaking my language! 🍫",
     "sender": "user1",
-    "createdAt": "2025-03-09T22:25:18.620Z"
+    "createdAt": "2025-03-10T12:10:00Z"
   },
   {
-    "id": "1741559380120",
-    "chatroom_id": "chat1",
-    "text": "hm",
-    "sender": "user1",
-    "createdAt": "2025-03-09T22:29:40.191Z"
-  },
-  {
-    "id": "1741565432718",
+    "id": "msg12",
     "chatroom_id": "chat2",
-    "text": "yes ?",
+    "text": "Hey Charlie, how are you?",
     "sender": "user1",
-    "createdAt": "2025-03-10T00:10:32.783Z"
+    "createdAt": "2025-03-10T12:05:00Z"
   },
   {
-    "id": "1741566302312",
+    "id": "msg13",
     "chatroom_id": "chat2",
-    "text": "hm",
-    "sender": "user1",
-    "createdAt": "2025-03-10T00:25:02.388Z"
-  },
-  {
-    "id": "1741566310845",
-    "chatroom_id": "chat2",
-    "text": "interesnting",
-    "sender": "user1",
-    "createdAt": "2025-03-10T00:25:10.911Z"
-  },
-  {
-    "id": "1741566328657",
-    "chatroom_id": "chat2",
-    "text": "more like confusing",
+    "text": "I'm good, thanks! How about you?",
     "sender": "user3",
-    "createdAt": "2025-03-10T00:25:28.741Z"
+    "createdAt": "2025-03-10T12:06:00Z"
   },
   {
-    "id": "1741566352070",
+    "id": "msg14",
     "chatroom_id": "chat2",
-    "text": "what is happening through",
+    "text": "I'm alright! Thinking about going for a walk later. The weather's finally nice!",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:07:00Z"
+  },
+  {
+    "id": "msg15",
+    "chatroom_id": "chat2",
+    "text": "Nice! Maybe we could grab some coffee and catch up?",
     "sender": "user3",
-    "createdAt": "2025-03-10T00:25:52.160Z"
+    "createdAt": "2025-03-10T12:08:00Z"
   },
   {
-    "id": "1741566382059",
-    "chatroom_id": "chat1",
-    "text": "what about here",
-    "sender": "user1",
-    "createdAt": "2025-03-10T00:26:22.145Z"
-  },
-  {
-    "id": "1741566467929",
+    "id": "msg16",
     "chatroom_id": "chat2",
-    "text": "I have no idea",
+    "text": "Sounds perfect! I'll bring the good vibes 😎",
     "sender": "user1",
-    "createdAt": "2025-03-10T00:27:48.005Z"
+    "createdAt": "2025-03-10T12:09:00Z"
   },
   {
-    "id": "1741566486834",
-    "chatroom_id": "chat1",
-    "text": "what about you ?",
-    "sender": "user1",
-    "createdAt": "2025-03-10T00:28:06.916Z"
-  },
-  {
-    "id": "1741568084535",
+    "id": "msg17",
     "chatroom_id": "chat2",
-    "text": "thats a good thing",
-    "sender": "user1",
-    "createdAt": "2025-03-10T00:54:44.609Z"
-  },
-  {
-    "id": "1741568131400",
-    "chatroom_id": "chat2",
-    "text": "yeeeah",
+    "text": "And I'll bring cookies! 🍪",
     "sender": "user3",
-    "createdAt": "2025-03-10T00:55:31.496Z"
+    "createdAt": "2025-03-10T12:10:00Z"
   },
   {
-    "id": "1741569311549",
+    "id": "msg18",
     "chatroom_id": "chat2",
-    "text": "nice work",
+    "text": "Deal! So, what else is new?",
     "sender": "user1",
-    "createdAt": "2025-03-10T01:15:11.642Z"
+    "createdAt": "2025-03-10T12:11:00Z"
   },
   {
-    "id": "1741569328536",
+    "id": "msg19",
     "chatroom_id": "chat2",
-    "text": "right ? ",
+    "text": "Not much, just binge-watching a new series. You?",
     "sender": "user3",
-    "createdAt": "2025-03-10T01:15:28.616Z"
+    "createdAt": "2025-03-10T12:12:00Z"
   },
   {
-    "id": "1741574226155",
+    "id": "msg20",
     "chatroom_id": "chat2",
-    "text": "who is the good good practice",
+    "text": "Oh, which one? I need something new to watch!",
     "sender": "user1",
-    "createdAt": "2025-03-10T02:37:06.205Z"
+    "createdAt": "2025-03-10T12:13:00Z"
   },
   {
-    "id": "1741574650333",
+    "id": "msg21",
     "chatroom_id": "chat2",
-    "text": "ready to rock ???",
-    "sender": "user1",
-    "createdAt": "2025-03-10T02:44:10.376Z"
-  },
-  {
-    "id": "1741574656117",
-    "chatroom_id": "chat2",
-    "text": "yesssss'",
+    "text": "It's called 'The Long Weekend'. Super chill and funny!",
     "sender": "user3",
-    "createdAt": "2025-03-10T02:44:16.177Z"
+    "createdAt": "2025-03-10T12:14:00Z"
   },
   {
-    "id": "1741574665223",
+    "id": "msg22",
     "chatroom_id": "chat2",
-    "text": "uuuuuuhoooo",
+    "text": "Nice! Adding it to my list. Btw, are you still up for hiking next weekend?",
     "sender": "user1",
-    "createdAt": "2025-03-10T02:44:25.263Z"
+    "createdAt": "2025-03-10T12:15:00Z"
   },
   {
-    "id": "1741574672087",
+    "id": "msg23",
     "chatroom_id": "chat2",
-    "text": "rocking it ",
-    "sender": "user1",
-    "createdAt": "2025-03-10T02:44:32.131Z"
-  },
-  {
-    "id": "1741574681109",
-    "chatroom_id": "chat2",
-    "text": "hahahahahahhah",
-    "sender": "user1",
-    "createdAt": "2025-03-10T02:44:41.154Z"
-  },
-  {
-    "id": "1741574691941",
-    "chatroom_id": "chat2",
-    "text": "uaahhahaahahahaahhahaha",
+    "text": "Definitely! I’ve already got my backpack ready 😂",
     "sender": "user3",
-    "createdAt": "2025-03-10T02:44:51.988Z"
+    "createdAt": "2025-03-10T12:16:00Z"
   },
   {
-    "id": "1741574711473",
+    "id": "msg12",
     "chatroom_id": "chat2",
-    "text": "the thing actually works",
+    "text": "Hey Charlie, how are you?",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:05:00Z"
+  },
+  {
+    "id": "msg13",
+    "chatroom_id": "chat2",
+    "text": "I'm good, thanks! How about you?",
     "sender": "user3",
-    "createdAt": "2025-03-10T02:45:11.523Z"
+    "createdAt": "2025-03-10T12:06:00Z"
+  },
+  {
+    "id": "msg14",
+    "chatroom_id": "chat2",
+    "text": "I'm alright! Thinking about going for a walk later. The weather's finally nice!",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:07:00Z"
+  },
+  {
+    "id": "msg15",
+    "chatroom_id": "chat2",
+    "text": "Nice! Maybe we could grab some coffee and catch up?",
+    "sender": "user3",
+    "createdAt": "2025-03-10T12:08:00Z"
+  },
+  {
+    "id": "msg16",
+    "chatroom_id": "chat2",
+    "text": "Sounds perfect! I'll bring the good vibes 😎",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:09:00Z"
+  },
+  {
+    "id": "msg17",
+    "chatroom_id": "chat2",
+    "text": "And I'll bring cookies! 🍪",
+    "sender": "user3",
+    "createdAt": "2025-03-10T12:10:00Z"
+  },
+  {
+    "id": "msg18",
+    "chatroom_id": "chat2",
+    "text": "Deal! So, what else is new?",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:11:00Z"
+  },
+  {
+    "id": "msg19",
+    "chatroom_id": "chat2",
+    "text": "Not much, just binge-watching a new series. You?",
+    "sender": "user3",
+    "createdAt": "2025-03-10T12:12:00Z"
+  },
+  {
+    "id": "msg20",
+    "chatroom_id": "chat2",
+    "text": "Oh, which one? I need something new to watch!",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:13:00Z"
+  },
+  {
+    "id": "msg21",
+    "chatroom_id": "chat2",
+    "text": "It's called 'The Long Weekend'. Super chill and funny!",
+    "sender": "user3",
+    "createdAt": "2025-03-10T12:14:00Z"
+  },
+  {
+    "id": "msg22",
+    "chatroom_id": "chat2",
+    "text": "Nice! Adding it to my list. Btw, are you still up for hiking next weekend?",
+    "sender": "user1",
+    "createdAt": "2025-03-10T12:15:00Z"
+  },
+  {
+    "id": "msg23",
+    "chatroom_id": "chat2",
+    "text": "Definitely! I’ve already got my backpack ready 😂",
+    "sender": "user3",
+    "createdAt": "2025-03-10T12:16:00Z"
   }
 ]

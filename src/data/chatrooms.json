@@ -2,10 +2,7 @@
   {
     "id": "chat1",
     "title": "General Chat",
-    "members": [
-      "user1",
-      "user2"
-    ],
+    "members": ["user1", "user2"],
     "typing_members": [],
     "lastOpened": [
       {
@@ -22,10 +19,7 @@
   {
     "id": "chat2",
     "title": "Private Chat",
-    "members": [
-      "user1",
-      "user3"
-    ],
+    "members": ["user1", "user3"],
     "typing_members": [],
     "lastOpened": [
       {
@@ -35,9 +29,6 @@
       {
         "userId": "user3",
         "date": "2025-03-10T01:15:37.196Z"
-      },
-      {
-        "date": "2025-03-10T01:12:35.607Z"
       }
     ],
     "type": "personal"
